@@ -79,7 +79,7 @@ def main():
     deck = [0, 0, 0,
             0, 0, 0,
             0, 0, 0]
-    window = sg.Window("Demo", layout)
+    window = sg.Window("3 In Row", layout)
 
     while True:
         event, value = window.read()
